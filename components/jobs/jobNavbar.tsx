@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 p-4 bg-white text-black dark:bg-gray-800 dark:text-white">
       <div className='max-w-screen-md mx-auto flex justify-between items-center'>
-        <div className='text-2xl font-bold ml-14'>Sheddler's List</div>
+        <div className='text-2xl font-bold ml-14'>Sheddler&rsquo;s List</div>
 
         {/* Navigation links */}
         <div className={`md:flex space-x-4 ${isNavbarOpen ? 'flex' : 'hidden'}`}>

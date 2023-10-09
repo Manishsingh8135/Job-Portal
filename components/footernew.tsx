@@ -13,7 +13,7 @@ export default function Footer() {
                                     alt="FlowBite Logo"
                                 />
                                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                                    Sheddler's list
+                                    Sheddler&rsquo;s List
                                 </span>
                             </a>
                         </div>
@@ -25,7 +25,7 @@ export default function Footer() {
                                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                     <li className="mb-4">
                                         <a href="/" className="hover:underline">
-                                            Sheddler's List
+                                            Sheddler&rsquo;s List
                                         </a>
                                     </li>
                                     <li>
@@ -82,7 +82,7 @@ export default function Footer() {
                         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
                             © 2023{" "}
                             <a href="/" className="hover:underline">
-                                Sheddler's List™
+                                Sheddler&rsquo;s List™
                             </a>
                             . All Rights Reserved.
                         </span>
