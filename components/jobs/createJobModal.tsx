@@ -123,7 +123,7 @@ const CreateJobPage: React.FC = () => {
                         {/* ...options... */}
                         <option value="">Select Eligibility</option>
                         <option value="Any Degree">Any Degree</option>
-                        <option value="Bachelor's Degree">Bachelor's Degree</option>
+                        <option value="Bachelors Degree">Bachelor Degree</option>
                     </select>
 
                     {/* Industry */}
