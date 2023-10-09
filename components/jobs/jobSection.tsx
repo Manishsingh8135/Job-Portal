@@ -14,7 +14,7 @@ interface JobData {
 
 const JobSection: React.FC = () => {
   const [jobData, setJobData] = useState<JobData[]>([]);
-  const [isNavbarOpen, setIsNavbarOpen] = useState<boolean>(false); // Track navbar state
+  // Track navbar state
 
   useEffect(() => {
     // Fetch data from the API and update jobData state
@@ -28,19 +28,12 @@ const JobSection: React.FC = () => {
       });
   }, []);
 
-  // Function to toggle the navbar
-  const toggleNavbar = () => {
-    setIsNavbarOpen(!isNavbarOpen);
-  };
-
+ 
     console.log(jobData)
   return (
     <div>
       {/* Render the Navbar */}
-      <Navbar
-        isNavbarOpen={isNavbarOpen}
-        toggleNavbar={toggleNavbar}
-      />
+      <Navbar/>
 
       {/* Content */}
       <div className='max-w-screen-md mx-auto p-4 mt-16'>
