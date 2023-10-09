@@ -18,7 +18,7 @@ const JobSection: React.FC = () => {
 
   useEffect(() => {
     // Fetch data from the API and update jobData state
-    fetch('http://localhost:5000/api/jobs/all')
+    fetch('https://jobportalbackend.netlify.app/.netlify/functions/api/jobs/all')
       .then((response) => response.json())
       .then((data: JobData[]) => {
         setJobData(data);
