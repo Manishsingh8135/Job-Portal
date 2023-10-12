@@ -20,6 +20,9 @@ export default function Navbar() {
           </Link>
 
           <div className="hidden md:block ">
+            <Link href="/homecare" className=" text-gray-900 px-4  dark:text-white">
+              Home Care
+            </Link>
             <Link href="/jobs" className="text-gray-900 px-4 dark:text-white">
               Find Jobs
             </Link>
@@ -78,6 +81,9 @@ export default function Navbar() {
 
         {isOpen && (
           <div className="block md:hidden mt-4">
+            <Link href="/homecare" className="block text-gray-900 px-4 py-2 dark:text-white">
+              Home Care
+            </Link>
             <Link href="/jobs" className="block text-gray-900 px-4 py-2 dark:text-white">
               Find Jobs
             </Link>
