@@ -16,7 +16,7 @@ export default function Navbar() {
       <nav className="container mx-auto px-6 py-3">
         <div className="flex justify-between items-center">
           <Link href="/" className="text-2xl font-bold text-gray-900 dark:text-white">
-            Sheddlers List
+          SHA
           </Link>
 
           <div className="hidden md:block ">

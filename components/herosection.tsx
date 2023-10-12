@@ -10,7 +10,7 @@ function HeroSection() {
       {/* Content */}
       <div className="relative container mx-auto px-6 text-center">
         <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
-          Welcome to <span className="gradient-text">Sheddlers List</span>
+          Welcome to <span className="gradient-text">Shedtronix Homecare agency</span>
         </h1>
         <p className="text-xl text-gray-700 dark:text-gray-300 mb-8">
           Elevate your business with our amazing solutions and services.
