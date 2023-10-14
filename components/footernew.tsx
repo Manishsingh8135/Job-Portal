@@ -16,6 +16,13 @@ export default function Footer() {
                                 Shedtronix Homecare agency
                                 </span>
                             </a>
+
+                            <div className=" dark:text-gray-400 text-l mt-3 text-gray-500">
+                                        Phone : +1203-322-0489<br />
+                                        +1203-653-3368, <br/>
+                                        Email: shedtronix@gmail.com
+                                        
+                            </div>
                         </div>
                         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                             <div>
