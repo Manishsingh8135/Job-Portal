@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ModeToggle } from "../ui/ModeToggle";
 import Signedinn from "./Signedin";
 import { UserButton } from "@clerk/nextjs";
-
+import Image from "next/image";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,7 +16,12 @@ export default function Navbar() {
       <nav className="container mx-auto px-6 py-3">
         <div className="flex justify-between items-center">
           <Link href="/" className="text-2xl font-bold text-gray-900 dark:text-white">
-          SHA
+            <Image
+            src="/assets/logo.png"
+            width={50}
+            height={50}
+            alt="Picture of the author"
+             />
           </Link>
 
           <div className="hidden md:block ">
