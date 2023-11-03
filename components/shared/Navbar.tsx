@@ -26,7 +26,7 @@ export default function Navbar() {
 
           <div className="hidden md:block ">
             <Link href="/homecare" className=" text-gray-900 px-4  dark:text-white">
-              Healthcare
+              Home Care
             </Link>
             <Link href="/jobs" className="text-gray-900 px-4 dark:text-white">
               Find Jobs
